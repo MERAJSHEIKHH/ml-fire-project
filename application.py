@@ -46,3 +46,7 @@ if __name__=="__main__":
 
 
 # this eb.extensions folder is necessary for deployment on aws throught elasticbeanstalk
+
+
+
+#in this project we have given different fire weather index compnents and their values for a region and we have to predict fire weather index from the value of its different components
