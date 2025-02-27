@@ -13,7 +13,7 @@ standard_scaler=pickle.load(open('models/scaler.pkl','rb'))
 
 ## Route for home page
 @app.route('/')
-def index():
+def index(): 
     return render_template('index.html')
 
 @app.route('/predictdata',methods=['GET','POST'])
@@ -45,3 +45,4 @@ if __name__=="__main__":
 
 
 
+# this eb.extensions folder is necessary for deployment on aws throught elasticbeanstalk
